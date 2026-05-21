@@ -24,7 +24,7 @@ def mostrar_heroe(heroe):
     )
 
 
-def ver_heroes(lista_heroe):
+def ver_heroes(lista_heroes):
     """
     Brief:
         Recorre la lista principal mediante un bucle for e imprime cada heroe usando sus indices.
