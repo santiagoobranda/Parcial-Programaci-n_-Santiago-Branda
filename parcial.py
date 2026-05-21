@@ -5,7 +5,7 @@ def mostrar_heroe(heroe):  # Muestra todos los datos de un héroe usando sus ín
     print(f'Nombre: {heroe[0]}\n'
           f'Identidad: {heroe[1]}\n'
           f'Empresa: {heroe[2]}\n'
-          f'Altura: {heroe[3]} Metros \n'
+          f'Altura: {heroe[3]} cm \n'
           f'Peso: {heroe[4]} Kilos \n'
           f'Género: {heroe[5]}\n'
           f'Ojos: {heroe[6]}\n'
