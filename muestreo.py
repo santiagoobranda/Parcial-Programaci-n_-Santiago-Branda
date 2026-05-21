@@ -3,7 +3,7 @@ from heroes import *
 def mostrar_heroe(heroe):
     """
     Brief:
-        Muestra en la consola los datos formateados de un heroe accediendo a los indices de su lista.
+        Muestra los datos de un heroe, accediendo a los indices de su lista.
     Parametros:
         heroe: Sublista con los datos del personaje posicionados por indice (0:Nombre, 1:Identidad, 
                       2:Empresa, 3:Altura, 4:Peso, 5:Genero, 6:Ojos, 7:Pelo, 8:Fuerza, 9:Inteligencia).

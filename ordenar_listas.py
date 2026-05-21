@@ -6,7 +6,7 @@ from heroes import *
 def ordenar_alfabeticamente(lista_heroes):
     """
     Brief:
-        Ordena los heroes alfabeticamente por el nombre (indice 0) aplicando el algoritmo de Burbuja.
+        Ordena los heroes alfabeticamente por el nombre (indice 0) aplicando el algoritmo bubble sort.
         Hace el intercambio de posiciones usando una variable auxiliar.
     Parametros:
         lista_heroe : Lista que se va a ordenar de forma interna.
@@ -32,9 +32,9 @@ def ver_condicion (lista_heroes, indice, mensaje, modo):
         y muestra todos los que coincidan con ese valor.
 
     Parametros:
-        lista_heroe (list): Lista de heroes
-        indice (int): Posicion del atributo a comparar
-        modo (str): 'max' para maximo o 'min' para minimo
+        lista_heroe : Lista de heroes
+        indice : Posicion del elemento a comparar
+        modo: 'max' para maximo o 'min' para minimo
        
 
     Retorno:

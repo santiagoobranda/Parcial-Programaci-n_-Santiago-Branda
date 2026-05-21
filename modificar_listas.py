@@ -4,10 +4,10 @@ from heroes import *
 def agregar_elemento(lista, elemento):
     """
     Brief:
-        Agrega un elemento al final de la lista utilizando el metodo append.
+        Agrega un elemento al final de la lista utilizando append.
     Parametros:
         lista : La lista en la que se va a guardar el dato.
-        elemento (any): El dato o la sublista que se quiere agregar.
+        elemento: El dato o la sublista que se quiere agregar.
     Retorno:
         None
     """
@@ -17,7 +17,7 @@ def agregar_elemento(lista, elemento):
 def agregar_heroe(lista_heroes):
     """
     Brief:
-        Pide los datos de un nuevo heroe por consola, los valida uno por uno con bucles while 
+        Pide los datos de un nuevo heroe, los valida uno por uno con bucles while 
         y, si esta todo bien, arma una sublista y la agrega a la lista principal.
     Parametros:
         lista_heroe : Lista principal donde se va a guardar el nuevo heroe creado.

@@ -11,7 +11,7 @@ from ordenar_listas import *
 def menu():
     """
     Brief:
-        Muestra un menu interactivo en la consola usando un bucle while controlado por una bandera. 
+        Muestra un menu en la consola usando un bucle while controlado por una bandera. 
         Segun la opcion ingresada, llama a la funcion correspondiente pasandole la lista.
     Parametros:
         None
