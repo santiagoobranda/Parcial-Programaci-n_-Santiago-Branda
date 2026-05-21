@@ -1,3 +1,5 @@
+from heroes import *
+
 def mostrar_heroe(heroe):
     """
     Brief:
@@ -32,5 +34,5 @@ def ver_heroes(lista_heroe):
         None
     """
     print('-- LISTA DE HEROES --')
-    for i in range(len(lista_heroe)):  
-        mostrar_heroe(lista_heroe[i]) 
+    for i in range(len(lista_heroes)):  
+        mostrar_heroe(lista_heroes[i]) 

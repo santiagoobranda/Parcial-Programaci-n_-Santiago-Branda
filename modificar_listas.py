@@ -1,5 +1,5 @@
 from muestreo import *
-
+from heroes import *
 
 def agregar_elemento(lista, elemento):
     """
@@ -14,7 +14,7 @@ def agregar_elemento(lista, elemento):
     lista.append(elemento)  
 
 
-def agregar_heroe(lista_heroe):
+def agregar_heroe(lista_heroes):
     """
     Brief:
         Pide los datos de un nuevo heroe por consola, los valida uno por uno con bucles while 
@@ -73,12 +73,12 @@ def agregar_heroe(lista_heroe):
         inteligencia = input('ingrese nivel de inteligencia (low, average, good, high, genius): ')
 
     heroe = [nombre, identidad, empresa, altura, peso, genero, color_ojos, color_pelo, fuerza, inteligencia]  
-    agregar_elemento(lista_heroe, heroe)  
+    agregar_elemento(lista_heroes, heroe)  
     print('Heroe agregado correctamente')
-    ver_heroes(lista_heroe)  
+    ver_heroes(lista_heroes)  
 
 
-def eliminar_heroe(lista_heroe):
+def eliminar_heroe(lista_heroes):
     """
     Brief:
         Busca un heroe por su nombre (indice 0). Si lo encuentra, muestra sus datos, 
@@ -92,10 +92,10 @@ def eliminar_heroe(lista_heroe):
 
     encontrado = False  # Bandera de control
 
-    for i in range(len(lista_heroe)):  
-        if lista_heroe[i][0].lower() == nombre:  
-            mostrar_heroe(lista_heroe[i])  
-            lista_heroe.pop(i)  
+    for i in range(len(lista_heroes)):  
+        if lista_heroes[i][0].lower() == nombre:  
+            mostrar_heroe(lista_heroes[i])  
+            lista_heroes.pop(i)  
             print('Heroe eliminado')
             encontrado = True
             break  
